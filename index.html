@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiki - Datos Abstractos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Wiki - Datos Abstractos</h1>
+        <button id="mode-toggle"><i class="fas fa-adjust"></i></button>
+    </header>
+
+    <div class="content">
+        <center> <h1> Datos Abstractos</h1></center>    
+        <h2>Introducción.....</h2>
+        <p>Los datos abstractos son estructuras de datos que permiten organizar y almacenar información de manera eficiente, brindando métodos para manipular y acceder a dichos datos de forma adecuada. Estas estructuras abstractas facilitan la implementación de algoritmos y soluciones a problemas complejos.</p>
+        <h2>Características de los Datos Abstractos</h2>
+        <p>Los datos abstractos tienen las siguientes características:</p>
+        <ul>
+            <li>Abstracción: Los datos abstractos ocultan los detalles internos de implementación y se centran en la funcionalidad y la interfaz. Esto permite que los usuarios se enfoquen en cómo utilizar los datos sin preocuparse por los detalles de implementación.</li>
+            <br>
+            <li>Encapsulamiento: Los datos abstractos encapsulan tanto los datos como los métodos que operan sobre ellos. Esto significa que los datos y las operaciones relacionadas se agrupan en una única entidad, lo que facilita la gestión y el mantenimiento del código.</li>
+            <br>
+            <li>Modularidad: Los datos abstractos son componentes independientes que pueden ser utilizados y reutilizados en diferentes partes de un programa. Esto promueve la modularidad y la reutilización de código, lo que facilita el desarrollo y el mantenimiento de programas complejos.</li>
+        </ul>
+        <h2>Listas</h2>
+        <p>Una lista es una estructura de datos que permite almacenar y manipular una colección de elementos. Los elementos en una lista están organizados en un orden específico y se pueden acceder de manera secuencial.</p>
+        <p>Por ejemplo, una lista de números enteros podría ser:</p>
+        <pre>
+            <code>
+                1 -> 5 -> 9 -> 3 -> 7
+            </code>
+        </pre>
+        <div class="image-container">
+            <img src="Ordenar-listas-en-Python.png" alt="Imagen de una lista">
+        </div>
+     
+        <h2>Colas</h2>
+        <p>Una cola es una estructura de datos que sigue la regla de "primero en entrar, primero en salir" (FIFO, por sus siglas en inglés: First-In, First-Out). Los elementos se agregan al final de la cola y se eliminan desde el frente.</p>
+        <p>Por ejemplo, una cola de clientes en un banco:</p>
+        <pre>
+            <code>
+                Frente: Cliente1 -> Cliente2 -> Cliente3 -> Cliente4 :Final
+            </code>
+        </pre>
+        <div class="image-container">
+        <img src="InsertarDatoEnColaPython.jpg" alt="Imagen de cola">
+        </div>
+        <h2>Árboles</h2>
+        <p>Un árbol es una estructura de datos jerárquica que consta de nodos conectados entre sí. Cada nodo tiene un valor y puede tener cero o más nodos hijos. El primer nodo en un árbol se llama nodo raíz.</p>
+    <p>Por ejemplo, un árbol binario de búsqueda podría verse así:</p>
+    <pre>
+        <code>
+                8
+              /   \
+             3     10
+           /  \      \
+          1    6      14
+                \
+                 7
+        </code>
+    </pre>
+    <div class="image-container">
+        <img src="Árbol-binario-en-C-struct-nodo.png" alt="arbol">
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
